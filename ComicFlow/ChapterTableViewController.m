@@ -50,6 +50,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)setChapters:(NSArray<NSString *> *)chapters {
+    _chapters = [chapters sortedArrayUsingComparator:^NSComparisonResult(NSString *obj1, NSString *obj2) {
+        if (obj1.integerValue < obj2.integerValue) {
+            return NSOrderedDescending;
+        } else if (obj1.integerValue > obj2.integerValue) {
+            return NSOrderedAscending;
+        } else {
+            return NSOrderedSame;
+        }
+    }];
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
