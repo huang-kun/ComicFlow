@@ -15,6 +15,12 @@
 		1A7BC0E420D523A900468466 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC0E320D523A900468466 /* main.m */; };
 		1A7BC0EE20D523A900468466 /* ComicFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC0ED20D523A900468466 /* ComicFlowTests.m */; };
 		1A7BC0F920D523A900468466 /* ComicFlowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC0F820D523A900468466 /* ComicFlowUITests.m */; };
+		1A7BC10820D5299100468466 /* ComicsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC10720D5299100468466 /* ComicsTableViewController.m */; };
+		1A7BC10B20D52C0700468466 /* ChapterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC10A20D52C0700468466 /* ChapterTableViewController.m */; };
+		1A7BC10E20D52DD800468466 /* CMFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC10D20D52DD800468466 /* CMFetcher.m */; };
+		1A7BC11120D533E700468466 /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC11020D533E700468466 /* UIViewController+Alert.m */; };
+		1A7BC11720D53C1500468466 /* ImageBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC11620D53C1500468466 /* ImageBrowserViewController.m */; };
+		EB64E5833F5DBA61EE3E7712 /* Pods_ComicFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06242CFFEA2E9F67477EED35 /* Pods_ComicFlow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06242CFFEA2E9F67477EED35 /* Pods_ComicFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComicFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7BC0D120D523A700468466 /* ComicFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComicFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7BC0D420D523A700468466 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A7BC0D520D523A700468466 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,18 @@
 		1A7BC0F420D523A900468466 /* ComicFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComicFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7BC0F820D523A900468466 /* ComicFlowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComicFlowUITests.m; sourceTree = "<group>"; };
 		1A7BC0FA20D523A900468466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7BC10620D5299100468466 /* ComicsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComicsTableViewController.h; sourceTree = "<group>"; };
+		1A7BC10720D5299100468466 /* ComicsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComicsTableViewController.m; sourceTree = "<group>"; };
+		1A7BC10920D52C0700468466 /* ChapterTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChapterTableViewController.h; sourceTree = "<group>"; };
+		1A7BC10A20D52C0700468466 /* ChapterTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChapterTableViewController.m; sourceTree = "<group>"; };
+		1A7BC10C20D52DD800468466 /* CMFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMFetcher.h; sourceTree = "<group>"; };
+		1A7BC10D20D52DD800468466 /* CMFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMFetcher.m; sourceTree = "<group>"; };
+		1A7BC10F20D533E700468466 /* UIViewController+Alert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alert.h"; sourceTree = "<group>"; };
+		1A7BC11020D533E700468466 /* UIViewController+Alert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alert.m"; sourceTree = "<group>"; };
+		1A7BC11520D53C1500468466 /* ImageBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageBrowserViewController.h; sourceTree = "<group>"; };
+		1A7BC11620D53C1500468466 /* ImageBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageBrowserViewController.m; sourceTree = "<group>"; };
+		92049699A4B2B977DA8A2712 /* Pods-ComicFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComicFlow.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComicFlow/Pods-ComicFlow.release.xcconfig"; sourceTree = "<group>"; };
+		C52CFB754D6AFD2E0EC152B2 /* Pods-ComicFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComicFlow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComicFlow/Pods-ComicFlow.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB64E5833F5DBA61EE3E7712 /* Pods_ComicFlow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14B2BE6F56B81124CB8D6D31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06242CFFEA2E9F67477EED35 /* Pods_ComicFlow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1A7BC0C820D523A700468466 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				1A7BC0EC20D523A900468466 /* ComicFlowTests */,
 				1A7BC0F720D523A900468466 /* ComicFlowUITests */,
 				1A7BC0D220D523A700468466 /* Products */,
+				67329B61AAF7C1048D275DDA /* Pods */,
+				14B2BE6F56B81124CB8D6D31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +135,16 @@
 				1A7BC0D520D523A700468466 /* AppDelegate.m */,
 				1A7BC0D720D523A700468466 /* ViewController.h */,
 				1A7BC0D820D523A700468466 /* ViewController.m */,
+				1A7BC10C20D52DD800468466 /* CMFetcher.h */,
+				1A7BC10D20D52DD800468466 /* CMFetcher.m */,
+				1A7BC10F20D533E700468466 /* UIViewController+Alert.h */,
+				1A7BC11020D533E700468466 /* UIViewController+Alert.m */,
+				1A7BC10620D5299100468466 /* ComicsTableViewController.h */,
+				1A7BC10720D5299100468466 /* ComicsTableViewController.m */,
+				1A7BC10920D52C0700468466 /* ChapterTableViewController.h */,
+				1A7BC10A20D52C0700468466 /* ChapterTableViewController.m */,
+				1A7BC11520D53C1500468466 /* ImageBrowserViewController.h */,
+				1A7BC11620D53C1500468466 /* ImageBrowserViewController.m */,
 				1A7BC0DA20D523A700468466 /* Main.storyboard */,
 				1A7BC0DD20D523A900468466 /* Assets.xcassets */,
 				1A7BC0DF20D523A900468466 /* LaunchScreen.storyboard */,
@@ -132,6 +172,15 @@
 			path = ComicFlowUITests;
 			sourceTree = "<group>";
 		};
+		67329B61AAF7C1048D275DDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C52CFB754D6AFD2E0EC152B2 /* Pods-ComicFlow.debug.xcconfig */,
+				92049699A4B2B977DA8A2712 /* Pods-ComicFlow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A7BC0FD20D523A900468466 /* Build configuration list for PBXNativeTarget "ComicFlow" */;
 			buildPhases = (
+				6FAC22E15C9CFC4BF1A2B3AE /* [CP] Check Pods Manifest.lock */,
 				1A7BC0CD20D523A700468466 /* Sources */,
 				1A7BC0CE20D523A700468466 /* Frameworks */,
 				1A7BC0CF20D523A700468466 /* Resources */,
+				3C787DC1A3C9F6E2E8C49FA7 /* [CP] Embed Pods Frameworks */,
+				96D8F70860831F65B2CB4F51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +309,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C787DC1A3C9F6E2E8C49FA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ComicFlow/Pods-ComicFlow-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MWPhotoBrowser/MWPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MWPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ComicFlow/Pods-ComicFlow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FAC22E15C9CFC4BF1A2B3AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComicFlow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96D8F70860831F65B2CB4F51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ComicFlow/Pods-ComicFlow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A7BC0CD20D523A700468466 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1A7BC0D920D523A700468466 /* ViewController.m in Sources */,
+				1A7BC10E20D52DD800468466 /* CMFetcher.m in Sources */,
 				1A7BC0E420D523A900468466 /* main.m in Sources */,
+				1A7BC11720D53C1500468466 /* ImageBrowserViewController.m in Sources */,
 				1A7BC0D620D523A700468466 /* AppDelegate.m in Sources */,
+				1A7BC10820D5299100468466 /* ComicsTableViewController.m in Sources */,
+				1A7BC10B20D52C0700468466 /* ChapterTableViewController.m in Sources */,
+				1A7BC11120D533E700468466 /* UIViewController+Alert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +550,7 @@
 		};
 		1A7BC0FE20D523A900468466 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52CFB754D6AFD2E0EC152B2 /* Pods-ComicFlow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +568,7 @@
 		};
 		1A7BC0FF20D523A900468466 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92049699A4B2B977DA8A2712 /* Pods-ComicFlow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
